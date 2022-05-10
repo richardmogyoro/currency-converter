@@ -33,7 +33,7 @@ namespace CurrencyConverter
             BindCurrency();
         }
 
-        private async void BindCurrency()
+        private void BindCurrency()
         {
             DataTable dtCurrency = new DataTable();
             dtCurrency.Columns.Add("Text");
