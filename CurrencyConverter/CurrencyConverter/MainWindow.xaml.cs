@@ -34,5 +34,10 @@ namespace CurrencyConverter
         {
 
         }
+
+        private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
+        {
+
+        }
     }
 }
