@@ -68,7 +68,7 @@ namespace CurrencyConverter
         private void SetRates(string response, DataTable dtCurrency)
         {
             var details = JObject.Parse(response);
-            Console.WriteLine(details["rates"]);
+
             dtCurrency.Rows.Add("USD", details["rates"]["USD"]);
             dtCurrency.Rows.Add("AUD", details["rates"]["AUD"]);
             dtCurrency.Rows.Add("CAD", details["rates"]["CAD"]);
